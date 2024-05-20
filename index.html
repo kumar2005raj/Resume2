@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/545f982ae8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">    
+        </div>
+        <div class="container">
+            <nav>
+                <ul id ="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"> </i>
+                   
+                </ul>
+                <i class="fa-solid fa-bars"  onclick="openmenu()">
+
+                </i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi Viewers, <span><br>I  am 
+                <h3>Raj Kumar.</h3></span></h1>
+                <span id="element"></span>
+
+            </div>
+        </div>
+    
+
+    </div>
+    <!-------------about section --------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="Profile.png.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                    Hi, My Name is Raj Kumar. I am a Second Year Student at AITR-Indore, excelling in C++,Java with DSA and 
+                    learning various tools and technologies like Data Science with Machine learning(Python),Frontend Developer.<br>
+                       <br>
+                       I am the Member of Computer Society of India.It's a Coding Club of the AITR-Indore. I actively Working on Many 
+                       Projects like AI-Image Generator, Text-To-Speech-Converter. My Ongoing project is Chabot Application With Qt 
+                       FrameWork in C++.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing web/Appinterfaces</li>
+                            <li><span>Web Development</span><br>Web Development</li>
+                            <li><span>App Development</span><br>Building Andorid/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="experience">
+                        <ul>
+                            <li><span>2022</span><br>Microsoft Azure Data Science</li>
+                            <li><span>Member-2024(CSI)</span><br>Development Team</li>
+                            <li><span>2024-current </span><br>Machine Learning Project</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="education">
+                        <ul>
+                            <li><span>2020</span><br>JJPS School</li>
+                            <li><span>2022</span><br>RLSY School</li>
+                            <li><span>2022-current</span><br>AITR-Indore</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------Services--------------------->
+    
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services:-</h1>
+            <div class="Services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Desgin and Developer:-</h2>
+                    <p1>1. To Provide Frontend Services For Tech Companies.
+                    <p> 2. To Provide logic Solution of the Code For the Tech Companies.</p>
+                 </p1>
+                 <a href="#">learn more </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Language Framework:</h2>
+                    <p2>1. To Work on C++ Framework QT For Widget Application.
+                    <p> 2. Django Frame for Backend. </p>
+                </p2>
+                 <a href="#">learn more </a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+
+                    <h2>Analytical Solutions:-</h2>
+                    <p3>1.  To provide the genuine Solution of the Data Structure.
+                    <p>2.  To provide Tech Solution of the code.</p>
+                    </p3>
+                 <a href="#">learn more </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------Portfolio ---------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+
+            <div class ="work-list">
+               <div class ="work">
+                <div class="Project-list">
+                    
+                </div>
+                <img src="work-1.png">
+                
+
+                <div class ="layer">
+                    <h3>Frontend Developer</h3>
+                    <p>HTML,CSS,JavaScript</p>
+                    <p>React.js </p>
+                        
+                    <a href ="https://github.com/kumar2005raj/OK-GUYS?tab=readme-ov-file"><i class="fa-solid fa-link"></i></a>
+                    
+                </div>
+               </div>
+               <div class ="work">
+                <img src="work-2.png">
+                <div class ="layer">
+                    <h3>Machine Learning with Python</h3>
+                    <p>Data Science With Python</p>
+                    <p>Working on Artificial Intelligence</p>
+                    <a href ="#"><i class="fa-solid fa-link"></i></a>    
+                </div>
+               </div>
+               <div class ="work">
+                <img src="work-3.png">
+                <div class ="layer">
+                    <h3>Design and Development</h3>
+                    <p>Java Desgin and Development</p>
+                    <p>C++ with QT Desgin</p>
+                    <p>Python Framwork</p>
+                    <a href ="https://github.com/kumar2005raj/New-Coding"><i class="fa-solid fa-link"></i></a>
+                </div>
+               </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-------------------contact------------------------->
+    <div id ="contact">
+        <div class ="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>raj9074kk@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7903309074</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100021130848933"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/raj9074kk"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/tldm_raj/"><i class="fa-brands fa-instagram"></i></a> 
+                        <a href="https://www.linkedin.com/in/raj-kumar-61781524b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLKXifs5ITQu5UvPKcPHdmA%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1ATrYKOKIp4pOAtcCKhY6KwTRD5vSBFP2/view?usp=drive_link" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                <form name ="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email"name="Email "placeholder= "Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id ="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Raj Kumar <i class="fa-solid fa-copyright"></i>Thank You.</p>
+    </div>
+  </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");  
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu()
+        {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyoLQ_9VAdI5mYMsp7Pem32y3_p71eG00xMXYhpnIBnkXwSNjxcqFnosCcmZy5EhsOUWA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>  {
+                msg.innerHTML ="Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },10000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script>
+        var typed = new Typed('#element', {
+          strings: ['Frontend Developer. ', 'Machine Learning.','Web Designer.'],
+          typeSpeed: 30,
+        });
+      </script>
+      
+</body>
+</html>
